@@ -12,7 +12,7 @@ public class lab_01 {
         double[] x = new double[12];
         Random rand = new Random();
         for (int i = 0; i < a.length; i++) {
-            x[1] = rand.nextDouble(7) - 14;
+            x[i] = rand.nextDouble(7) - 14;
         }
         double[][] s = new double[10][12];
         for (int i = 0; i < s.length; i++) {
